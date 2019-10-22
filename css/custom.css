@@ -1,0 +1,152 @@
+/* General use */
+* {
+	font-family: Roboto;
+}
+
+body {
+	background: url(../imagens/wallpaper.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.apresentacao {
+	background-image: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/*  */
+
+
+
+
+/* Default formatting */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	border: 2px solid rgba(125, 125, 125, 0.5);
+}
+
+/*  */
+
+
+
+
+/* Custom classes  */
+
+.sidebar {
+	/* Stay at the top */
+	top: 0;
+	left: 0;
+
+	/* Force it to always be in the left, fixed */
+	height: 100%;
+	position: fixed;
+
+	/* Sidebar's background */
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.sidebar a:hover {
+	font-size: 120%;
+	opacity: .7;
+}
+
+.bg-S {
+	background-color: rgb(60, 0, 60) !important;
+}
+
+.bg-A {
+	background-color: rgb(0, 60, 0) !important;
+}
+
+.bg-B {
+	background-color: rgb(0, 60, 60) !important;
+}
+
+.bg-C {
+	background-color: rgb(60, 60, 0) !important;
+}
+
+.bg-D {
+	background-color: rgb(60, 0, 0) !important;
+}
+
+.bg-E {
+	background-color: rgb(60, 0, 60) !important;
+}
+
+.bg-F {
+	background-color: rgb(0, 0, 0) !important;
+}
+
+.position-template {
+	border-top-left-radius: calc(0.25rem - 1px);
+	border-top-right-radius: calc(0.25rem - 1px);
+}
+
+/*  */
+
+
+
+/* MEDIA QUERIES */
+
+/* XS - 0px < */
+@media screen and (min-width: 0px) {
+	.sidebar {
+		width: 0;
+	}
+}
+
+/* SM - 576px < */
+@media screen and (min-width: 576px) {
+	.sidebar {
+		width: 0;
+	}
+}
+
+/* MD - 768px < */
+@media screen and (min-width: 768px) {
+	.sidebar {
+		width: 0;
+	}
+}
+
+/* LG - 992px < */
+@media screen and (min-width: 992px) {
+	.sidebar {
+		width: 250px;
+	}
+
+	.main {
+		margin-left: 250px;
+	}
+
+	.sidebar-btn{
+		display: none;
+	}
+}
+
+/* XL - 1200px < */
+@media screen and (min-width: 1200px) {
+	.sidebar {
+		width: 250px;
+	}
+
+	.main {
+		margin-left: 250px;
+	}
+}
+
+/*  */
